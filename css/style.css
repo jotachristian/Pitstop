@@ -1,0 +1,98 @@
+body {
+    background-image: url(../img/background.png);
+}
+
+.central {
+    /* background-color: rgba(0, 0, 0, 0.807); */
+    width: 1000px;
+    height: 550px;
+    margin-top: 120px;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.central h1 {
+    text-align: left;
+    font-size: 50px;
+    color: black;
+    padding-top: 25px;
+    font-family: "Inter";
+
+}
+
+.central #info {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: "Inter";
+    margin-top: -20px;
+    padding-bottom: 5px;
+    font-size: 18px;
+
+}
+
+form {
+    margin-top: 60px;
+
+}
+
+label {
+    color: white;
+    font-family: "Secular One";
+    font-size: 20px;
+    padding-left: 35px;
+
+
+}
+
+.square {
+    border: 2px;
+    border-color: #638281;
+    border-style: dashed;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    transition: 0.6s;
+
+
+}
+
+.square::placeholder {
+    color: rgba(255, 255, 255, 0.635);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square:hover {
+    border: 1px solid rgba(99, 130, 129, 255);
+}
+
+#info2 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.635);
+    font-family: "Secular One";
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.calcular {
+    background-color: #638281;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Secular One";
+    color: white;
+    margin-left: 43%;
+    margin-top: 8%;
+}
+
+.phpresponde {
+    color: white;
+    font-family: "Secular One";
+    font-size: 20px;
+
+}
