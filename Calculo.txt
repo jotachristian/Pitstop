@@ -1,0 +1,7 @@
+Para se calcular a distancia total, precisamos multiplicar o tamanho da pista pelo total de voltas.
+
+precisa tambem calcular a distancia entre cada reabastecimento, pra isso precisamos dividir a distancia total pela quantidade de trechos. os trechos são calculados com o n° de  reabastecimento informado mais 1 ( leva em consideração que no trecho inicial o carro já tem combustível)
+
+Como o consumo de combustível é dado em quilômetros por litro, precisa converter a distância de metros para quilômetros.
+
+Depois é só dividir a distância entre reabastecimentos pelo consumo de combustível.
